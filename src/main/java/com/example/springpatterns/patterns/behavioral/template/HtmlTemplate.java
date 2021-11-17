@@ -7,7 +7,7 @@ public abstract class HtmlTemplate {
 
         // return head() + body() + footer();
 
-        return String.format("%s %s %s", head(), body(), footer());
+        return String.format("%s %s %s ", head(), body(), footer());
     }
 
     public abstract String head();

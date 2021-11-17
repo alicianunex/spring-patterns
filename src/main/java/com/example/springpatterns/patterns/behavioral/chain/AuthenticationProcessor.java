@@ -6,7 +6,7 @@ package com.example.springpatterns.patterns.behavioral.chain;
 public abstract class AuthenticationProcessor {
 
 
-    private AuthenticationProcessor next;
+    protected AuthenticationProcessor next;
 
     protected AuthenticationProcessor(AuthenticationProcessor next) {
         this.next = next;

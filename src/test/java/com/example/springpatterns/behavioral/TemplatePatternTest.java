@@ -1,9 +1,10 @@
-package com.example.springpatterns.behavioral.template;
+package com.example.springpatterns.behavioral;
 
 import com.example.springpatterns.patterns.behavioral.template.HtmlAboutUs;
 import com.example.springpatterns.patterns.behavioral.template.HtmlHome;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TemplatePatternTest {
 

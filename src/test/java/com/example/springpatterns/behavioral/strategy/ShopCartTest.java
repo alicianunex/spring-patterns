@@ -109,5 +109,9 @@ public class ShopCartTest {
         cart.pay(
                 (amount) -> System.out.println(amount)
         );
+
+        assertEquals( 9.99,product1.getPrice());
+        assertNotNull(product1);
+        assertNotNull(product2);
     }
 }
